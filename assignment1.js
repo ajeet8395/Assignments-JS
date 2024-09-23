@@ -164,15 +164,15 @@
 
 // Write a function sumAges that takes an array of objects, where each object represents a person with properties name and age. The function should return the sum of all the ages.
 
-const people = [
-    { name: "Quinn", age: 32 },
-    { name: "Ryan", age: 28 },
-    { name: "Sophia", age: 25 }
-  ];
+// const people = [
+//     { name: "Quinn", age: 32 },
+//     { name: "Ryan", age: 28 },
+//     { name: "Sophia", age: 25 }
+//   ];
   
-  const sumAges = (people) => {
+//   const sumAges = (people) => {
     
-  }
+//   }
   // function sumAges(people){
   //   let sum =  0;
   //   for(let i = 0; i < people.length; i++){
@@ -181,3 +181,33 @@ const people = [
   // }
   
   // console.log(sumAges());
+
+
+  // ***************************************23092024***********************888
+
+  // function reverseString(str){
+  //   let reverse = str.split("").reverse().join(""); 
+  //   return reverse;
+  // }
+
+
+  // let string = "AJEET";
+  // console.log(reverseString(string));
+
+
+
+// const reverseString = (str) => {
+//   let reverse = str.split("").reverse().join("");
+
+//   if(reverse == str){
+//     console.log(`${str} is a palindrom number`);
+//   }else{
+//     console.log(`${str} is not a plaindrom number`);
+//   }
+// }
+
+//   let string = "AJEEJA";
+//   console.log(reverseString(string));
+
+
+
