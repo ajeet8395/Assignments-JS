@@ -184,17 +184,20 @@
 
 
   // ***************************************23092024***********************888
+  // 1. Write a function to reverse a string.
 
   // function reverseString(str){
   //   let reverse = str.split("").reverse().join(""); 
   //   return reverse;
   // }
 
-
   // let string = "AJEET";
   // console.log(reverseString(string));
 
 
+
+
+//2. Write a function to check if a string is a palindrome.
 
 // const reverseString = (str) => {
 //   let reverse = str.split("").reverse().join("");
@@ -211,3 +214,69 @@
 
 
 
+// 3. Write a function to find the largest number in an array.
+// const array =  [1,2,3,4,5,6];
+
+// const findLargestNumber = (array) => {
+//   let largest = array[0];
+//   for(let i = 1; i <= array.length; i++){
+//     if(array[i] > largest){
+//       largest = array[i];
+//     }
+//   }
+//   return largest;
+// }
+
+// console.log(findLargestNumber(array));
+
+
+
+// 4. Write a function to remove duplicates from an array.
+// const arr = [1, 2, 3, 2, 4, 5, 6];
+
+// const removeDuplicate = (arr) => {
+//   const result = []; 
+//   for (let i = 0; i < arr.length; i++) {
+//     if (!result.includes(arr[i])) {
+//       result.push(arr[i]);
+//     }
+//   }
+//   return result;
+// }
+
+// console.log(removeDuplicate(arr));  
+
+
+
+// 5. Write a function to check if a number is prime.
+
+// function checkNum(a){
+//   if(a%2 == 0){
+//     console.log("This is prime number");
+//   }else {
+//     console.log("This is not a prime number");
+//   }
+// }
+
+// const a = 23;
+// console.log(checkNum(a));
+
+
+
+// 6. Write a function to find the sum of all numbers in an array.
+// const arr = [9,8,7,6,5,4,3];
+
+// function sumArray(arr) {
+//   let sum = 0;
+
+//   for(let i = 0; i < arr.length; i++){
+//     sum += arr[i];
+//   }
+//   return sum;
+// }
+
+// console.log(sumArray(arr));
+
+
+
+// 7. Write a function to find the factorial of a number.
